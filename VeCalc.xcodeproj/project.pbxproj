@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39DFE621F999AAA006FD9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE611F999AAA006FD9D5 /* AppDelegate.swift */; };
+		B39DFE641F999AAA006FD9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE631F999AAA006FD9D5 /* ViewController.swift */; };
+		B39DFE691F999AAA006FD9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39DFE681F999AAA006FD9D5 /* Assets.xcassets */; };
+		B39DFE6C1F999AAA006FD9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39DFE6A1F999AAA006FD9D5 /* LaunchScreen.storyboard */; };
+		B39DFE771F999AAA006FD9D5 /* VeCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE761F999AAA006FD9D5 /* VeCalcTests.swift */; };
+		B39DFE821F999AAA006FD9D5 /* VeCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE811F999AAA006FD9D5 /* VeCalcUITests.swift */; };
+		B39DFE911F999B6E006FD9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39DFE8F1F999B6E006FD9D5 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B39DFE731F999AAA006FD9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B39DFE561F999AAA006FD9D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B39DFE5D1F999AAA006FD9D5;
+			remoteInfo = VeCalc;
+		};
+		B39DFE7E1F999AAA006FD9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B39DFE561F999AAA006FD9D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B39DFE5D1F999AAA006FD9D5;
+			remoteInfo = VeCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B39DFE5E1F999AAA006FD9D5 /* VeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39DFE611F999AAA006FD9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B39DFE631F999AAA006FD9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B39DFE681F999AAA006FD9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B39DFE6B1F999AAA006FD9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B39DFE6D1F999AAA006FD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39DFE721F999AAA006FD9D5 /* VeCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39DFE761F999AAA006FD9D5 /* VeCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeCalcTests.swift; sourceTree = "<group>"; };
+		B39DFE781F999AAA006FD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39DFE7D1F999AAA006FD9D5 /* VeCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39DFE811F999AAA006FD9D5 /* VeCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeCalcUITests.swift; sourceTree = "<group>"; };
+		B39DFE831F999AAA006FD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39DFE901F999B6E006FD9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../HackTheNorth2017/myRoomMate/myRoomMate/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39DFE5B1F999AAA006FD9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39DFE6F1F999AAA006FD9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39DFE7A1F999AAA006FD9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39DFE551F999AAA006FD9D5 = {
+			isa = PBXGroup;
+			children = (
+				B39DFE601F999AAA006FD9D5 /* VeCalc */,
+				B39DFE751F999AAA006FD9D5 /* VeCalcTests */,
+				B39DFE801F999AAA006FD9D5 /* VeCalcUITests */,
+				B39DFE5F1F999AAA006FD9D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B39DFE5F1F999AAA006FD9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39DFE5E1F999AAA006FD9D5 /* VeCalc.app */,
+				B39DFE721F999AAA006FD9D5 /* VeCalcTests.xctest */,
+				B39DFE7D1F999AAA006FD9D5 /* VeCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39DFE601F999AAA006FD9D5 /* VeCalc */ = {
+			isa = PBXGroup;
+			children = (
+				B39DFE8F1F999B6E006FD9D5 /* Main.storyboard */,
+				B39DFE611F999AAA006FD9D5 /* AppDelegate.swift */,
+				B39DFE631F999AAA006FD9D5 /* ViewController.swift */,
+				B39DFE681F999AAA006FD9D5 /* Assets.xcassets */,
+				B39DFE6A1F999AAA006FD9D5 /* LaunchScreen.storyboard */,
+				B39DFE6D1F999AAA006FD9D5 /* Info.plist */,
+			);
+			path = VeCalc;
+			sourceTree = "<group>";
+		};
+		B39DFE751F999AAA006FD9D5 /* VeCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				B39DFE761F999AAA006FD9D5 /* VeCalcTests.swift */,
+				B39DFE781F999AAA006FD9D5 /* Info.plist */,
+			);
+			path = VeCalcTests;
+			sourceTree = "<group>";
+		};
+		B39DFE801F999AAA006FD9D5 /* VeCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B39DFE811F999AAA006FD9D5 /* VeCalcUITests.swift */,
+				B39DFE831F999AAA006FD9D5 /* Info.plist */,
+			);
+			path = VeCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39DFE5D1F999AAA006FD9D5 /* VeCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39DFE861F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalc" */;
+			buildPhases = (
+				B39DFE5A1F999AAA006FD9D5 /* Sources */,
+				B39DFE5B1F999AAA006FD9D5 /* Frameworks */,
+				B39DFE5C1F999AAA006FD9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeCalc;
+			productName = VeCalc;
+			productReference = B39DFE5E1F999AAA006FD9D5 /* VeCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B39DFE711F999AAA006FD9D5 /* VeCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39DFE891F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcTests" */;
+			buildPhases = (
+				B39DFE6E1F999AAA006FD9D5 /* Sources */,
+				B39DFE6F1F999AAA006FD9D5 /* Frameworks */,
+				B39DFE701F999AAA006FD9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B39DFE741F999AAA006FD9D5 /* PBXTargetDependency */,
+			);
+			name = VeCalcTests;
+			productName = VeCalcTests;
+			productReference = B39DFE721F999AAA006FD9D5 /* VeCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B39DFE7C1F999AAA006FD9D5 /* VeCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39DFE8C1F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcUITests" */;
+			buildPhases = (
+				B39DFE791F999AAA006FD9D5 /* Sources */,
+				B39DFE7A1F999AAA006FD9D5 /* Frameworks */,
+				B39DFE7B1F999AAA006FD9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B39DFE7F1F999AAA006FD9D5 /* PBXTargetDependency */,
+			);
+			name = VeCalcUITests;
+			productName = VeCalcUITests;
+			productReference = B39DFE7D1F999AAA006FD9D5 /* VeCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39DFE561F999AAA006FD9D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dema Abu Adas";
+				TargetAttributes = {
+					B39DFE5D1F999AAA006FD9D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B39DFE711F999AAA006FD9D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B39DFE5D1F999AAA006FD9D5;
+					};
+					B39DFE7C1F999AAA006FD9D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B39DFE5D1F999AAA006FD9D5;
+					};
+				};
+			};
+			buildConfigurationList = B39DFE591F999AAA006FD9D5 /* Build configuration list for PBXProject "VeCalc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B39DFE551F999AAA006FD9D5;
+			productRefGroup = B39DFE5F1F999AAA006FD9D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39DFE5D1F999AAA006FD9D5 /* VeCalc */,
+				B39DFE711F999AAA006FD9D5 /* VeCalcTests */,
+				B39DFE7C1F999AAA006FD9D5 /* VeCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39DFE5C1F999AAA006FD9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39DFE911F999B6E006FD9D5 /* Main.storyboard in Resources */,
+				B39DFE6C1F999AAA006FD9D5 /* LaunchScreen.storyboard in Resources */,
+				B39DFE691F999AAA006FD9D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39DFE701F999AAA006FD9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39DFE7B1F999AAA006FD9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39DFE5A1F999AAA006FD9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39DFE641F999AAA006FD9D5 /* ViewController.swift in Sources */,
+				B39DFE621F999AAA006FD9D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39DFE6E1F999AAA006FD9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39DFE771F999AAA006FD9D5 /* VeCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39DFE791F999AAA006FD9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39DFE821F999AAA006FD9D5 /* VeCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B39DFE741F999AAA006FD9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B39DFE5D1F999AAA006FD9D5 /* VeCalc */;
+			targetProxy = B39DFE731F999AAA006FD9D5 /* PBXContainerItemProxy */;
+		};
+		B39DFE7F1F999AAA006FD9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B39DFE5D1F999AAA006FD9D5 /* VeCalc */;
+			targetProxy = B39DFE7E1F999AAA006FD9D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B39DFE6A1F999AAA006FD9D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39DFE6B1F999AAA006FD9D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B39DFE8F1F999B6E006FD9D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39DFE901F999B6E006FD9D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39DFE841F999AAA006FD9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B39DFE851F999AAA006FD9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B39DFE871F999AAA006FD9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSR5UYZT5G;
+				INFOPLIST_FILE = VeCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dema.VeCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B39DFE881F999AAA006FD9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSR5UYZT5G;
+				INFOPLIST_FILE = VeCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dema.VeCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B39DFE8A1F999AAA006FD9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46UNFSHQD2;
+				INFOPLIST_FILE = VeCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dema.VeCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeCalc.app/VeCalc";
+			};
+			name = Debug;
+		};
+		B39DFE8B1F999AAA006FD9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46UNFSHQD2;
+				INFOPLIST_FILE = VeCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dema.VeCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeCalc.app/VeCalc";
+			};
+			name = Release;
+		};
+		B39DFE8D1F999AAA006FD9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46UNFSHQD2;
+				INFOPLIST_FILE = VeCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dema.VeCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeCalc;
+			};
+			name = Debug;
+		};
+		B39DFE8E1F999AAA006FD9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46UNFSHQD2;
+				INFOPLIST_FILE = VeCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dema.VeCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39DFE591F999AAA006FD9D5 /* Build configuration list for PBXProject "VeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39DFE841F999AAA006FD9D5 /* Debug */,
+				B39DFE851F999AAA006FD9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39DFE861F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39DFE871F999AAA006FD9D5 /* Debug */,
+				B39DFE881F999AAA006FD9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39DFE891F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39DFE8A1F999AAA006FD9D5 /* Debug */,
+				B39DFE8B1F999AAA006FD9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39DFE8C1F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39DFE8D1F999AAA006FD9D5 /* Debug */,
+				B39DFE8E1F999AAA006FD9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39DFE561F999AAA006FD9D5 /* Project object */;
+}
