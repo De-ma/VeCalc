@@ -1,2 +1,0 @@
-# VeCalc
-Vector Calculator

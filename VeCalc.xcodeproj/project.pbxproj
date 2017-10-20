@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B39DFE621F999AAA006FD9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE611F999AAA006FD9D5 /* AppDelegate.swift */; };
-		B39DFE641F999AAA006FD9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE631F999AAA006FD9D5 /* ViewController.swift */; };
-		B39DFE691F999AAA006FD9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39DFE681F999AAA006FD9D5 /* Assets.xcassets */; };
-		B39DFE6C1F999AAA006FD9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39DFE6A1F999AAA006FD9D5 /* LaunchScreen.storyboard */; };
-		B39DFE771F999AAA006FD9D5 /* VeCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE761F999AAA006FD9D5 /* VeCalcTests.swift */; };
-		B39DFE821F999AAA006FD9D5 /* VeCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFE811F999AAA006FD9D5 /* VeCalcUITests.swift */; };
-		B39DFE911F999B6E006FD9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39DFE8F1F999B6E006FD9D5 /* Main.storyboard */; };
+		B3CB619B1F9A530A00BBDEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB619A1F9A530A00BBDEF7 /* AppDelegate.swift */; };
+		B3CB619D1F9A530A00BBDEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB619C1F9A530A00BBDEF7 /* ViewController.swift */; };
+		B3CB61A01F9A530A00BBDEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CB619E1F9A530A00BBDEF7 /* Main.storyboard */; };
+		B3CB61A21F9A530A00BBDEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CB61A11F9A530A00BBDEF7 /* Assets.xcassets */; };
+		B3CB61A51F9A530A00BBDEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CB61A31F9A530A00BBDEF7 /* LaunchScreen.storyboard */; };
+		B3CB61B01F9A530A00BBDEF7 /* VeCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB61AF1F9A530A00BBDEF7 /* VeCalcTests.swift */; };
+		B3CB61BB1F9A530A00BBDEF7 /* VeCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB61BA1F9A530A00BBDEF7 /* VeCalcUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B39DFE731F999AAA006FD9D5 /* PBXContainerItemProxy */ = {
+		B3CB61AC1F9A530A00BBDEF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B39DFE561F999AAA006FD9D5 /* Project object */;
+			containerPortal = B3CB618F1F9A530A00BBDEF7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B39DFE5D1F999AAA006FD9D5;
+			remoteGlobalIDString = B3CB61961F9A530A00BBDEF7;
 			remoteInfo = VeCalc;
 		};
-		B39DFE7E1F999AAA006FD9D5 /* PBXContainerItemProxy */ = {
+		B3CB61B71F9A530A00BBDEF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B39DFE561F999AAA006FD9D5 /* Project object */;
+			containerPortal = B3CB618F1F9A530A00BBDEF7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B39DFE5D1F999AAA006FD9D5;
+			remoteGlobalIDString = B3CB61961F9A530A00BBDEF7;
 			remoteInfo = VeCalc;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B39DFE5E1F999AAA006FD9D5 /* VeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B39DFE611F999AAA006FD9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B39DFE631F999AAA006FD9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B39DFE681F999AAA006FD9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B39DFE6B1F999AAA006FD9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B39DFE6D1F999AAA006FD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B39DFE721F999AAA006FD9D5 /* VeCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B39DFE761F999AAA006FD9D5 /* VeCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeCalcTests.swift; sourceTree = "<group>"; };
-		B39DFE781F999AAA006FD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B39DFE7D1F999AAA006FD9D5 /* VeCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B39DFE811F999AAA006FD9D5 /* VeCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeCalcUITests.swift; sourceTree = "<group>"; };
-		B39DFE831F999AAA006FD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B39DFE901F999B6E006FD9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../HackTheNorth2017/myRoomMate/myRoomMate/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3CB61971F9A530A00BBDEF7 /* VeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CB619A1F9A530A00BBDEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3CB619C1F9A530A00BBDEF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3CB619F1F9A530A00BBDEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3CB61A11F9A530A00BBDEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3CB61A41F9A530A00BBDEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3CB61A61F9A530A00BBDEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CB61AB1F9A530A00BBDEF7 /* VeCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CB61AF1F9A530A00BBDEF7 /* VeCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeCalcTests.swift; sourceTree = "<group>"; };
+		B3CB61B11F9A530A00BBDEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CB61B61F9A530A00BBDEF7 /* VeCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CB61BA1F9A530A00BBDEF7 /* VeCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeCalcUITests.swift; sourceTree = "<group>"; };
+		B3CB61BC1F9A530A00BBDEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B39DFE5B1F999AAA006FD9D5 /* Frameworks */ = {
+		B3CB61941F9A530A00BBDEF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39DFE6F1F999AAA006FD9D5 /* Frameworks */ = {
+		B3CB61A81F9A530A00BBDEF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39DFE7A1F999AAA006FD9D5 /* Frameworks */ = {
+		B3CB61B31F9A530A00BBDEF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B39DFE551F999AAA006FD9D5 = {
+		B3CB618E1F9A530A00BBDEF7 = {
 			isa = PBXGroup;
 			children = (
-				B39DFE601F999AAA006FD9D5 /* VeCalc */,
-				B39DFE751F999AAA006FD9D5 /* VeCalcTests */,
-				B39DFE801F999AAA006FD9D5 /* VeCalcUITests */,
-				B39DFE5F1F999AAA006FD9D5 /* Products */,
+				B3CB61991F9A530A00BBDEF7 /* VeCalc */,
+				B3CB61AE1F9A530A00BBDEF7 /* VeCalcTests */,
+				B3CB61B91F9A530A00BBDEF7 /* VeCalcUITests */,
+				B3CB61981F9A530A00BBDEF7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B39DFE5F1F999AAA006FD9D5 /* Products */ = {
+		B3CB61981F9A530A00BBDEF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B39DFE5E1F999AAA006FD9D5 /* VeCalc.app */,
-				B39DFE721F999AAA006FD9D5 /* VeCalcTests.xctest */,
-				B39DFE7D1F999AAA006FD9D5 /* VeCalcUITests.xctest */,
+				B3CB61971F9A530A00BBDEF7 /* VeCalc.app */,
+				B3CB61AB1F9A530A00BBDEF7 /* VeCalcTests.xctest */,
+				B3CB61B61F9A530A00BBDEF7 /* VeCalcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B39DFE601F999AAA006FD9D5 /* VeCalc */ = {
+		B3CB61991F9A530A00BBDEF7 /* VeCalc */ = {
 			isa = PBXGroup;
 			children = (
-				B39DFE8F1F999B6E006FD9D5 /* Main.storyboard */,
-				B39DFE611F999AAA006FD9D5 /* AppDelegate.swift */,
-				B39DFE631F999AAA006FD9D5 /* ViewController.swift */,
-				B39DFE681F999AAA006FD9D5 /* Assets.xcassets */,
-				B39DFE6A1F999AAA006FD9D5 /* LaunchScreen.storyboard */,
-				B39DFE6D1F999AAA006FD9D5 /* Info.plist */,
+				B3CB619A1F9A530A00BBDEF7 /* AppDelegate.swift */,
+				B3CB619C1F9A530A00BBDEF7 /* ViewController.swift */,
+				B3CB619E1F9A530A00BBDEF7 /* Main.storyboard */,
+				B3CB61A11F9A530A00BBDEF7 /* Assets.xcassets */,
+				B3CB61A31F9A530A00BBDEF7 /* LaunchScreen.storyboard */,
+				B3CB61A61F9A530A00BBDEF7 /* Info.plist */,
 			);
 			path = VeCalc;
 			sourceTree = "<group>";
 		};
-		B39DFE751F999AAA006FD9D5 /* VeCalcTests */ = {
+		B3CB61AE1F9A530A00BBDEF7 /* VeCalcTests */ = {
 			isa = PBXGroup;
 			children = (
-				B39DFE761F999AAA006FD9D5 /* VeCalcTests.swift */,
-				B39DFE781F999AAA006FD9D5 /* Info.plist */,
+				B3CB61AF1F9A530A00BBDEF7 /* VeCalcTests.swift */,
+				B3CB61B11F9A530A00BBDEF7 /* Info.plist */,
 			);
 			path = VeCalcTests;
 			sourceTree = "<group>";
 		};
-		B39DFE801F999AAA006FD9D5 /* VeCalcUITests */ = {
+		B3CB61B91F9A530A00BBDEF7 /* VeCalcUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B39DFE811F999AAA006FD9D5 /* VeCalcUITests.swift */,
-				B39DFE831F999AAA006FD9D5 /* Info.plist */,
+				B3CB61BA1F9A530A00BBDEF7 /* VeCalcUITests.swift */,
+				B3CB61BC1F9A530A00BBDEF7 /* Info.plist */,
 			);
 			path = VeCalcUITests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B39DFE5D1F999AAA006FD9D5 /* VeCalc */ = {
+		B3CB61961F9A530A00BBDEF7 /* VeCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B39DFE861F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalc" */;
+			buildConfigurationList = B3CB61BF1F9A530A00BBDEF7 /* Build configuration list for PBXNativeTarget "VeCalc" */;
 			buildPhases = (
-				B39DFE5A1F999AAA006FD9D5 /* Sources */,
-				B39DFE5B1F999AAA006FD9D5 /* Frameworks */,
-				B39DFE5C1F999AAA006FD9D5 /* Resources */,
+				B3CB61931F9A530A00BBDEF7 /* Sources */,
+				B3CB61941F9A530A00BBDEF7 /* Frameworks */,
+				B3CB61951F9A530A00BBDEF7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +142,72 @@
 			);
 			name = VeCalc;
 			productName = VeCalc;
-			productReference = B39DFE5E1F999AAA006FD9D5 /* VeCalc.app */;
+			productReference = B3CB61971F9A530A00BBDEF7 /* VeCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B39DFE711F999AAA006FD9D5 /* VeCalcTests */ = {
+		B3CB61AA1F9A530A00BBDEF7 /* VeCalcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B39DFE891F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcTests" */;
+			buildConfigurationList = B3CB61C21F9A530A00BBDEF7 /* Build configuration list for PBXNativeTarget "VeCalcTests" */;
 			buildPhases = (
-				B39DFE6E1F999AAA006FD9D5 /* Sources */,
-				B39DFE6F1F999AAA006FD9D5 /* Frameworks */,
-				B39DFE701F999AAA006FD9D5 /* Resources */,
+				B3CB61A71F9A530A00BBDEF7 /* Sources */,
+				B3CB61A81F9A530A00BBDEF7 /* Frameworks */,
+				B3CB61A91F9A530A00BBDEF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B39DFE741F999AAA006FD9D5 /* PBXTargetDependency */,
+				B3CB61AD1F9A530A00BBDEF7 /* PBXTargetDependency */,
 			);
 			name = VeCalcTests;
 			productName = VeCalcTests;
-			productReference = B39DFE721F999AAA006FD9D5 /* VeCalcTests.xctest */;
+			productReference = B3CB61AB1F9A530A00BBDEF7 /* VeCalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B39DFE7C1F999AAA006FD9D5 /* VeCalcUITests */ = {
+		B3CB61B51F9A530A00BBDEF7 /* VeCalcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B39DFE8C1F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcUITests" */;
+			buildConfigurationList = B3CB61C51F9A530A00BBDEF7 /* Build configuration list for PBXNativeTarget "VeCalcUITests" */;
 			buildPhases = (
-				B39DFE791F999AAA006FD9D5 /* Sources */,
-				B39DFE7A1F999AAA006FD9D5 /* Frameworks */,
-				B39DFE7B1F999AAA006FD9D5 /* Resources */,
+				B3CB61B21F9A530A00BBDEF7 /* Sources */,
+				B3CB61B31F9A530A00BBDEF7 /* Frameworks */,
+				B3CB61B41F9A530A00BBDEF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B39DFE7F1F999AAA006FD9D5 /* PBXTargetDependency */,
+				B3CB61B81F9A530A00BBDEF7 /* PBXTargetDependency */,
 			);
 			name = VeCalcUITests;
 			productName = VeCalcUITests;
-			productReference = B39DFE7D1F999AAA006FD9D5 /* VeCalcUITests.xctest */;
+			productReference = B3CB61B61F9A530A00BBDEF7 /* VeCalcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B39DFE561F999AAA006FD9D5 /* Project object */ = {
+		B3CB618F1F9A530A00BBDEF7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Dema Abu Adas";
 				TargetAttributes = {
-					B39DFE5D1F999AAA006FD9D5 = {
+					B3CB61961F9A530A00BBDEF7 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					B39DFE711F999AAA006FD9D5 = {
+					B3CB61AA1F9A530A00BBDEF7 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = B39DFE5D1F999AAA006FD9D5;
+						TestTargetID = B3CB61961F9A530A00BBDEF7;
 					};
-					B39DFE7C1F999AAA006FD9D5 = {
+					B3CB61B51F9A530A00BBDEF7 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = B39DFE5D1F999AAA006FD9D5;
+						TestTargetID = B3CB61961F9A530A00BBDEF7;
 					};
 				};
 			};
-			buildConfigurationList = B39DFE591F999AAA006FD9D5 /* Build configuration list for PBXProject "VeCalc" */;
+			buildConfigurationList = B3CB61921F9A530A00BBDEF7 /* Build configuration list for PBXProject "VeCalc" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B39DFE551F999AAA006FD9D5;
-			productRefGroup = B39DFE5F1F999AAA006FD9D5 /* Products */;
+			mainGroup = B3CB618E1F9A530A00BBDEF7;
+			productRefGroup = B3CB61981F9A530A00BBDEF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B39DFE5D1F999AAA006FD9D5 /* VeCalc */,
-				B39DFE711F999AAA006FD9D5 /* VeCalcTests */,
-				B39DFE7C1F999AAA006FD9D5 /* VeCalcUITests */,
+				B3CB61961F9A530A00BBDEF7 /* VeCalc */,
+				B3CB61AA1F9A530A00BBDEF7 /* VeCalcTests */,
+				B3CB61B51F9A530A00BBDEF7 /* VeCalcUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B39DFE5C1F999AAA006FD9D5 /* Resources */ = {
+		B3CB61951F9A530A00BBDEF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39DFE911F999B6E006FD9D5 /* Main.storyboard in Resources */,
-				B39DFE6C1F999AAA006FD9D5 /* LaunchScreen.storyboard in Resources */,
-				B39DFE691F999AAA006FD9D5 /* Assets.xcassets in Resources */,
+				B3CB61A51F9A530A00BBDEF7 /* LaunchScreen.storyboard in Resources */,
+				B3CB61A21F9A530A00BBDEF7 /* Assets.xcassets in Resources */,
+				B3CB61A01F9A530A00BBDEF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39DFE701F999AAA006FD9D5 /* Resources */ = {
+		B3CB61A91F9A530A00BBDEF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39DFE7B1F999AAA006FD9D5 /* Resources */ = {
+		B3CB61B41F9A530A00BBDEF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,67 +255,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B39DFE5A1F999AAA006FD9D5 /* Sources */ = {
+		B3CB61931F9A530A00BBDEF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39DFE641F999AAA006FD9D5 /* ViewController.swift in Sources */,
-				B39DFE621F999AAA006FD9D5 /* AppDelegate.swift in Sources */,
+				B3CB619D1F9A530A00BBDEF7 /* ViewController.swift in Sources */,
+				B3CB619B1F9A530A00BBDEF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39DFE6E1F999AAA006FD9D5 /* Sources */ = {
+		B3CB61A71F9A530A00BBDEF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39DFE771F999AAA006FD9D5 /* VeCalcTests.swift in Sources */,
+				B3CB61B01F9A530A00BBDEF7 /* VeCalcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39DFE791F999AAA006FD9D5 /* Sources */ = {
+		B3CB61B21F9A530A00BBDEF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39DFE821F999AAA006FD9D5 /* VeCalcUITests.swift in Sources */,
+				B3CB61BB1F9A530A00BBDEF7 /* VeCalcUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B39DFE741F999AAA006FD9D5 /* PBXTargetDependency */ = {
+		B3CB61AD1F9A530A00BBDEF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B39DFE5D1F999AAA006FD9D5 /* VeCalc */;
-			targetProxy = B39DFE731F999AAA006FD9D5 /* PBXContainerItemProxy */;
+			target = B3CB61961F9A530A00BBDEF7 /* VeCalc */;
+			targetProxy = B3CB61AC1F9A530A00BBDEF7 /* PBXContainerItemProxy */;
 		};
-		B39DFE7F1F999AAA006FD9D5 /* PBXTargetDependency */ = {
+		B3CB61B81F9A530A00BBDEF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B39DFE5D1F999AAA006FD9D5 /* VeCalc */;
-			targetProxy = B39DFE7E1F999AAA006FD9D5 /* PBXContainerItemProxy */;
+			target = B3CB61961F9A530A00BBDEF7 /* VeCalc */;
+			targetProxy = B3CB61B71F9A530A00BBDEF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B39DFE6A1F999AAA006FD9D5 /* LaunchScreen.storyboard */ = {
+		B3CB619E1F9A530A00BBDEF7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B39DFE6B1F999AAA006FD9D5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B39DFE8F1F999B6E006FD9D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B39DFE901F999B6E006FD9D5 /* Base */,
+				B3CB619F1F9A530A00BBDEF7 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3CB61A31F9A530A00BBDEF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CB61A41F9A530A00BBDEF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B39DFE841F999AAA006FD9D5 /* Debug */ = {
+		B3CB61BD1F9A530A00BBDEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		B39DFE851F999AAA006FD9D5 /* Release */ = {
+		B3CB61BE1F9A530A00BBDEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,7 +422,7 @@
 			};
 			name = Release;
 		};
-		B39DFE871F999AAA006FD9D5 /* Debug */ = {
+		B3CB61C01F9A530A00BBDEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		B39DFE881F999AAA006FD9D5 /* Release */ = {
+		B3CB61C11F9A530A00BBDEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -452,7 +452,7 @@
 			};
 			name = Release;
 		};
-		B39DFE8A1F999AAA006FD9D5 /* Debug */ = {
+		B3CB61C31F9A530A00BBDEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -469,7 +469,7 @@
 			};
 			name = Debug;
 		};
-		B39DFE8B1F999AAA006FD9D5 /* Release */ = {
+		B3CB61C41F9A530A00BBDEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,7 +486,7 @@
 			};
 			name = Release;
 		};
-		B39DFE8D1F999AAA006FD9D5 /* Debug */ = {
+		B3CB61C61F9A530A00BBDEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,7 +502,7 @@
 			};
 			name = Debug;
 		};
-		B39DFE8E1F999AAA006FD9D5 /* Release */ = {
+		B3CB61C71F9A530A00BBDEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,43 +521,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B39DFE591F999AAA006FD9D5 /* Build configuration list for PBXProject "VeCalc" */ = {
+		B3CB61921F9A530A00BBDEF7 /* Build configuration list for PBXProject "VeCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B39DFE841F999AAA006FD9D5 /* Debug */,
-				B39DFE851F999AAA006FD9D5 /* Release */,
+				B3CB61BD1F9A530A00BBDEF7 /* Debug */,
+				B3CB61BE1F9A530A00BBDEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B39DFE861F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalc" */ = {
+		B3CB61BF1F9A530A00BBDEF7 /* Build configuration list for PBXNativeTarget "VeCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B39DFE871F999AAA006FD9D5 /* Debug */,
-				B39DFE881F999AAA006FD9D5 /* Release */,
+				B3CB61C01F9A530A00BBDEF7 /* Debug */,
+				B3CB61C11F9A530A00BBDEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B39DFE891F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcTests" */ = {
+		B3CB61C21F9A530A00BBDEF7 /* Build configuration list for PBXNativeTarget "VeCalcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B39DFE8A1F999AAA006FD9D5 /* Debug */,
-				B39DFE8B1F999AAA006FD9D5 /* Release */,
+				B3CB61C31F9A530A00BBDEF7 /* Debug */,
+				B3CB61C41F9A530A00BBDEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B39DFE8C1F999AAA006FD9D5 /* Build configuration list for PBXNativeTarget "VeCalcUITests" */ = {
+		B3CB61C51F9A530A00BBDEF7 /* Build configuration list for PBXNativeTarget "VeCalcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B39DFE8D1F999AAA006FD9D5 /* Debug */,
-				B39DFE8E1F999AAA006FD9D5 /* Release */,
+				B3CB61C61F9A530A00BBDEF7 /* Debug */,
+				B3CB61C71F9A530A00BBDEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B39DFE561F999AAA006FD9D5 /* Project object */;
+	rootObject = B3CB618F1F9A530A00BBDEF7 /* Project object */;
 }
