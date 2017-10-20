@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
+
     
     /* Vectors */
     @IBOutlet weak var u1: UITextField!
@@ -39,22 +40,40 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        u1.delegate = self
+        u2.delegate = self
+        u3.delegate = self
+        v1.delegate = self
+        v2.delegate = self
+        v3.delegate = self
+
+    
         addBtn.addTarget(self, action: #selector(ViewController.buttonClicked(_:)), for: .touchUpInside)
         magnitudeBtn.addTarget(self, action: #selector(ViewController.buttonClicked(_:)), for: .touchUpInside)
+        subtractBtn.addTarget(self, action: #selector(ViewController.buttonClicked(_:)), for: .touchUpInside)
 
+        
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+
     @IBAction func buttonClicked(_ sender: UIButton) {
         //change this later when i learn how to do button "listeners" individually
         if (sender === addBtn) {
             calcAdd()
-        } else if (sender == magnitudeBtn) {
+        } else if (sender === magnitudeBtn) {
             calcMagnitude()
+        } else if (sender === subtractBtn) {
+            calcSubtract();
         }
     }
     
@@ -92,6 +111,16 @@ class ViewController: UIViewController {
         xResult.text = "\(addx)"
         yResult.text = "\(addy)"
         zResult.text = "\(addz)"
+    }
+    
+    func calcSubtract() {
+        let subtractx: Double = Double(u1.text!)! - Double(v1.text!)!
+        let subtracty: Double = Double(u2.text!)! - Double(v2.text!)!
+        let subtractz: Double = Double(u3.text!)! - Double(v3.text!)!
+        
+        xResult.text = "\(subtractx)"
+        yResult.text = "\(subtracty)"
+        zResult.text = "\(subtractz)"
     }
 
 }
