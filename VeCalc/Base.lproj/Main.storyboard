@@ -272,12 +272,23 @@
                     </view>
                     <connections>
                         <outlet property="addBtn" destination="tBC-Or-YFF" id="l9k-KB-8v2"/>
+                        <outlet property="crossBtn" destination="N3h-is-wlO" id="IKq-o6-vbU"/>
+                        <outlet property="derivativeBtn" destination="6j0-hb-DZq" id="Z0K-UM-VOK"/>
+                        <outlet property="dotBtn" destination="AM0-xr-r2y" id="hg2-nJ-NLG"/>
+                        <outlet property="integral" destination="azm-c8-w0d" id="W6y-Db-Sbj"/>
                         <outlet property="magnitudeBtn" destination="1hl-zo-cHK" id="psE-0L-1Zk"/>
                         <outlet property="singleResult" destination="lzx-UC-k3n" id="FR4-wb-Bqj"/>
+                        <outlet property="subtractBtn" destination="Mg2-UY-Mdg" id="ZXD-B7-bl2"/>
                         <outlet property="u1" destination="ieH-Cu-7n0" id="yZE-NU-ecW"/>
                         <outlet property="u2" destination="2zc-HN-cED" id="8qp-yA-DGH"/>
                         <outlet property="u3" destination="tCs-Ef-bzf" id="UUa-28-8qg"/>
+                        <outlet property="unitBtn" destination="h15-Rd-TDd" id="5um-VD-77K"/>
+                        <outlet property="v1" destination="0cU-9k-SQl" id="R7c-H5-OOl"/>
+                        <outlet property="v2" destination="iIq-WP-heu" id="Gs0-6g-wC3"/>
+                        <outlet property="v3" destination="aqO-Jq-B5K" id="9y5-LA-kGw"/>
                         <outlet property="xResult" destination="TAg-FB-RHi" id="nW3-sd-dua"/>
+                        <outlet property="yResult" destination="WVt-Dh-5fO" id="VYj-VA-w4Y"/>
+                        <outlet property="zResult" destination="2X2-Hc-YEL" id="duh-CJ-x1S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
