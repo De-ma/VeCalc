@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var DimentionSwitcher: UISegmentedControl!
     
     /* Vectors */
     @IBOutlet weak var u1: UITextField!
@@ -46,13 +47,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         v1.delegate = self
         v2.delegate = self
         v3.delegate = self
-
     
         addBtn.addTarget(self, action: #selector(ViewController.buttonClicked(_:)), for: .touchUpInside)
         magnitudeBtn.addTarget(self, action: #selector(ViewController.buttonClicked(_:)), for: .touchUpInside)
         subtractBtn.addTarget(self, action: #selector(ViewController.buttonClicked(_:)), for: .touchUpInside)
 
-        
     }
 
 
@@ -81,8 +80,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         var u1Double: Double = Double(u1.text!)!
         var u2Double: Double = Double(u2.text!)!
         var u3Double: Double = Double(u3.text!)!
-        //v///ar final: Double
-        //var finalString
         
         u1Double = u1Double * u1Double
         u2Double = u2Double * u2Double
