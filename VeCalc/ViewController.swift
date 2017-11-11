@@ -10,8 +10,44 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var DimentionSwitcher: UISegmentedControl!
+    @IBOutlet weak var vector13D: UIView!
+    @IBOutlet weak var vector2View: UIView!
+    @IBOutlet weak var vectorNum: UISegmentedControl!
     
+    @IBOutlet weak var demensionToggle: UISegmentedControl!
+    
+    @IBOutlet weak var vector23D: UIView!
+    @IBAction func dimensionAction(_ sender: Any) {
+        switch demensionToggle.selectedSegmentIndex {
+        case 0:
+            vector23D.isHidden = true
+            vector13D.isHidden = true
+            break;
+        
+        case 1:
+            vector13D.isHidden = false
+            if (vector2View.isHidden == false) {
+                vector23D.isHidden = false
+            }
+            break;
+        default:
+            break;
+        }
+    }
+    @IBAction func numAction(_ sender: UISegmentedControl) {
+        switch vectorNum.selectedSegmentIndex {
+        case 0:
+            vector2View.isHidden = true
+            vector23D.isHidden = true
+            break;
+        case 1:
+            vector2View.isHidden = false
+            break;
+        default:
+            break;
+            
+        }
+    }
     /* Vectors */
     @IBOutlet weak var u1: UITextField!
     @IBOutlet weak var u2: UITextField!
@@ -41,6 +77,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        vector2View.isHidden = true
+        vector23D.isHidden = true
+        vector13D.isHidden = true
+
+
         u1.delegate = self
         u2.delegate = self
         u3.delegate = self
