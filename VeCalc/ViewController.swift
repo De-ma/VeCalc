@@ -13,18 +13,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var vector13D: UIView!
     @IBOutlet weak var vector2View: UIView!
     @IBOutlet weak var vectorNum: UISegmentedControl!
-    
     @IBOutlet weak var demensionToggle: UISegmentedControl!
-    
     @IBOutlet weak var vector23D: UIView!
+    
     @IBAction func dimensionAction(_ sender: Any) {
         switch demensionToggle.selectedSegmentIndex {
         case 0:
+            //2D
             vector23D.isHidden = true
             vector13D.isHidden = true
             break;
-        
         case 1:
+            //3D
             vector13D.isHidden = false
             if (vector2View.isHidden == false) {
                 vector23D.isHidden = false
@@ -37,11 +37,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func numAction(_ sender: UISegmentedControl) {
         switch vectorNum.selectedSegmentIndex {
         case 0:
+            //one vector
             vector2View.isHidden = true
             vector23D.isHidden = true
             break;
         case 1:
+            //two vectors!
             vector2View.isHidden = false
+            if (vector13D.isHidden == false) {
+                //bascially what were doing here is checking if a 3D vector is already out there, to match the dimensions of the other
+                vector23D.isHidden = false
+            }
             break;
         default:
             break;
@@ -81,7 +87,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         vector23D.isHidden = true
         vector13D.isHidden = true
 
-
         u1.delegate = self
         u2.delegate = self
         u3.delegate = self
@@ -117,20 +122,30 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    /**
+     *
+     */
     func calcMagnitude() {
         var u1Double: Double = Double(u1.text!)!
         var u2Double: Double = Double(u2.text!)!
-        var u3Double: Double = Double(u3.text!)!
+        var u3Double: Double = 0
         
         u1Double = u1Double * u1Double
         u2Double = u2Double * u2Double
-        u3Double = u3Double * u3Double
         
+        //incase you're using a 2D vector your program wont crash!
+        if let title = u3.text {
+            if (!title.isEmpty) {
+                u3Double = Double(u3.text!)! * Double(u3.text!)!
+            }
+        }
+        
+        //Since the magnitude is a squared we have to make sure the numbers aren't negative! 
         if (u1Double < 0) {
             u1Double = -u1Double
         } else if (u2Double < 0) {
             u2Double = -u2Double
-        } else if (u3Double < 0) {
+        } else if (u3Double < 0.0) {
             u3Double = -u3Double
         }
         
@@ -141,24 +156,50 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     }
     
+    /**
+     *
+     */
     func calcAdd() {
         let addx: Double = Double(u1.text!)! + Double(v1.text!)!
         let addy: Double = Double(u2.text!)! + Double(v2.text!)!
-        let addz: Double = Double(u3.text!)! + Double(v3.text!)!
+        var addz: Double? = 0
+        
+        //incase you're using a 2D vector, your program wont crash!
+        if let title = u3.text {
+            if let title2 = v3.text {
+                if (!title.isEmpty && !title2.isEmpty) {
+                    addz = Double(self.u3.text!)! + Double(self.v3.text!)!
+                }
+            }
+        }
+    
         
         xResult.text = "\(addx)"
         yResult.text = "\(addy)"
-        zResult.text = "\(addz)"
+        zResult.text = "\(addz ?? 0)"
     }
     
+    /**
+     * Function that subtracts two vectors from each other
+     */
     func calcSubtract() {
         let subtractx: Double = Double(u1.text!)! - Double(v1.text!)!
         let subtracty: Double = Double(u2.text!)! - Double(v2.text!)!
-        let subtractz: Double = Double(u3.text!)! - Double(v3.text!)!
+        var subtractz: Double? = 0
         
+        //incase you are using only a 2D vector, program wont crash!
+        if let title = u3.text {
+            if let title2 = v3.text {
+                if (!title.isEmpty && !title2.isEmpty) {
+                    subtractz = Double(self.u3.text!)! + Double(self.v3.text!)!
+                    
+                }
+            }
+        }
+    
         xResult.text = "\(subtractx)"
         yResult.text = "\(subtracty)"
-        zResult.text = "\(subtractz)"
+        zResult.text = "\(subtractz ?? 0)"
     }
 
 }
