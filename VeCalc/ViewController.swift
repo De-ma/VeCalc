@@ -173,7 +173,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         }
     
-        
         xResult.text = "\(addx)"
         yResult.text = "\(addy)"
         zResult.text = "\(addz ?? 0)"
@@ -192,7 +191,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if let title2 = v3.text {
                 if (!title.isEmpty && !title2.isEmpty) {
                     subtractz = Double(self.u3.text!)! + Double(self.v3.text!)!
-                    
                 }
             }
         }
